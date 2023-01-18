@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+.nav1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width:100%;
+    
+
+}
+.nav-top{
+    display: flex;
+    margin: auto;
+    margin-bottom: 17px;
+    
+}
+/* top starts */
+#nav-top1{
+    display: flex;
+    align-items: center;
+    margin: auto;
+width:400px;
+height:20px;
+margin-left: 120px;
+margin-top: 10px;
+}
+
+
+#nav-top2{
+    display: flex;
+    align-items: center;
+    margin: auto;
+width:900px;
+height:20px;
+margin-left: 220px;
+margin-top: 10px;
+
+
+
+}
+.nav-top img{
+    width:20px;
+    padding-left: 25px;
+    
+}
+.nav-top img:hover{
+    cursor:pointer;
+}
+.nav-top span{
+    padding-left: 5px;
+    color: rgb(71, 67, 67);
+}
+.nav-top span:hover{
+    cursor:pointer;
+}
+/* top ends */
+/* bottom starts */
+.nav-bottom{
+    display: flex;
+    
+
+}
+#bottom1{
+    display: flex;
+    width:255px;
+    height:60px;
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+    margin-left: 135px;
+}
+#xyz{
+  
+    width:55px;
+    height:45px;
+    padding-top: 10px;
+    cursor:pointer;
+}
+#change{
+   
+    width:155px;
+    height:50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    cursor:pointer;
+}
+    
+#bottom2{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+}
+
+#xyzw{
+    
+    width:25px;
+    height:25px;
+    padding-top: 8px;
+    cursor:pointer;
+}
+
+#select{
+    border: 0px;
+    font-size: 15px;
+    font-weight: 10px;
+    margin-top: 4px;
+    padding-left: 1px;
+    cursor:pointer;
+}
+
+#select1{
+    border: 0px;
+    font-size: 15px;
+    font-weight: 10px;
+    margin-top: 6px;
+    padding-left: 1px;
+    cursor:pointer;
+}
+#form1{
+    border: 1px solid blue;
+    padding-left: 3px;
+    margin-left: 3px;
+    height:35px;
+    font-size: 15px;
+    font-weight: 10px;
+    padding-top: 5px;
+    color: rgb(71, 67, 67);
+
+    
+   
+}
+input[type="text"]{
+    height: 25px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding-left: 10px;
+    border-left:1px solid gray;
+    color: rgb(71, 67, 67);
+}
+
+input[type="submit"]{
+    height: 30px;
+    border:0px;
+    padding-left: 10px;
+  margin-right: 7px;
+
+    color: rgb(71, 67, 67);
+cursor:pointer;
+}
+
+#bottom3{
+    display: flex;
+    /* border:2px solid red; */
+    margin: auto;
+    margin-right: 200px;
+    align-items: center;
+
+}
+#bottom3 button{
+  margin-left: 15px;
+    height:35px;
+    background-color: rgb(240, 240, 13);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#span1{
+    cursor: pointer;
+}
+#img1{
+    width:25px;
+    height:25px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+/* bottom ends */
+/* nav 2 starts */
+.nav2{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width:100%;
+    height:50px;
+    
+}
+#nav-bottom{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    /* border: 2px solid red; */
+    display: flex;
+    margin:auto;
+    width:75%;
+    height:45px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#select4{
+    border: 0px;
+    font-size: 13px;
+    font-weight: 10px;
+    margin-top: 7px;
+    padding-left: 1px;
+    cursor:pointer;
+    /* padding-top: 5px; */
+    color: rgb(71, 67, 67);
+    height:46px;
+    padding-top: 1px;
+    
+}
+#select4:hover{
+    background-color:#29B6F6;
+    
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+.dropdown-content p{
+   
+    background-color: aquamarine;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+#arrow{
+    width:20px;
+    padding-top: 5px;
+    border: 2px solid red;
+    margin-top: 7px;
+}
+</style>
+</head>
+<body>
+    <nav class="nav1">
+        <div class="nav-top">
+            <div id="nav-top1">
+                <img src="C:\Users\shree\Desktop\CW project\bag icon.png" alt="">
+                <span>For Businesses</span>
+
+                <img src="C:\Users\shree\Desktop\CW project\download app.png" alt="">
+                <span>Download The App</span>
+
+            </div>
+            <div id="nav-top2">
+                <img src="C:\Users\shree\Desktop\CW project\deals.png" alt="">
+                <span>Deals</span>
+
+                <img src="C:\Users\shree\Desktop\CW project\store.png" alt="">
+                <span>Visit Our Store</span>
+
+                <img src="C:\Users\shree\Desktop\CW project\discount.png" alt="">
+                <span>Discount on Premium Ads</span>
+
+                <img src="C:\Users\shree\Desktop\CW project\cart.png" alt="">
+                <span>Cart</span>
+
+                <img src="C:\Users\shree\Desktop\CW project\chat.png" alt="">
+                <span><i>NXT</i></span>
+            </div>
+        </div>
+        <div class="nav-bottom">
+            <div id="bottom1">
+                
+
+                <img id="xyz" src="C:\Users\shree\Desktop\CW project\menu lines.png" onclick="toggleNav()" alt="">
+
+                <!-- OR -->
+                <!-- <div class="hamburger" onclick="toggleNav()">&#9776;</div> -->
+                <span><img id="change" src="C:\Users\shree\Desktop\CW project\SOB.png" alt=""></span>
+            </div>
+            <div id="bottom2">
+                <img id="xyzw" src="C:\Users\shree\Desktop\CW project\location.png" alt="">
+                <select id="select">
+                    <option value="">All India</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Nashik">Nashik</option>
+                    <option value="Jaipur">Jaipur</option>
+                </select>
+                <form id="form1">
+                    
+                    <select id="select1">
+                        <option value="">All Categories</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Nashik">Nashik</option>
+                        <option value="Jaipur">Jaipur</option>
+                    </select>
+                
+                    <input type="text" placeholder="Search in All India">
+                    <input type="submit">
+                </form>
+            </div>
+           <div id="bottom3">
+            <img id="img1" src="C:\Users\shree\Desktop\CW project\user.png" alt="">
+            <span id="span1">Login/Register</span>
+            <button>Post Free Ad</button>
+           </div >
+
+
+        </div>
+    </nav>
+   
+   <nav class="nav2">
+        <div id="nav-bottom">
+            <select id="select4">
+                <option value="">MOBILES</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <select id="select4">
+                <option value="">FURNITURE & DECOR</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <select id="select4">
+                <option value="">ELECTRONICS</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <select id="select4">
+                <option value="">HOME APPLIANCES</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <select id="select4">
+                <option value="">KIDS & TOYS</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <div class="dropdown">
+            
+                <select id="select4">
+                    <option value="">SPORTS,HOBBIES & FASHION</option>
+                </select>
+                <div class="dropdown-content">
+                    <h2>Delhi</h2>
+                    <a>xyz</a>
+                    <p>Hyderabad</p>
+                    <p>Mumbai</p>
+                    <p>Banglore</p>
+                    <p>Pune</p>
+                    <p>Nagpur</p>
+                    <p>Lucknow</p>
+                    <p>Nashik</p>
+                    <p>Jaipur</p>
+                </div>       
+            </div>
+        </div>
+    
+   </nav>
+   
+
+
+
+
+</body>
+<script>
+
+</script>
+</html>
