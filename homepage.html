@@ -5,251 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-       
-.nav1{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    width:100%;
-    
-
-}
-.nav-top{
-    display: flex;
-    margin: auto;
-    margin-bottom: 17px;
-    
-}
-/* top starts */
-#nav-top1{
-    display: flex;
-    align-items: center;
-    margin: auto;
-width:400px;
-height:20px;
-margin-left: 120px;
-margin-top: 10px;
-}
-
-
-#nav-top2{
-    display: flex;
-    align-items: center;
-    margin: auto;
-width:900px;
-height:20px;
-margin-left: 220px;
-margin-top: 10px;
-
-
-
-}
-.nav-top img{
-    width:20px;
-    padding-left: 25px;
-    
-}
-.nav-top img:hover{
-    cursor:pointer;
-}
-.nav-top span{
-    padding-left: 5px;
-    color: rgb(71, 67, 67);
-}
-.nav-top span:hover{
-    cursor:pointer;
-}
-/* top ends */
-/* bottom starts */
-.nav-bottom{
-    display: flex;
-    
-
-}
-#bottom1{
-    display: flex;
-    width:255px;
-    height:60px;
-    /* justify-content: center; */
-    /* border: 2px solid red; */
-    margin-left: 135px;
-}
-#xyz{
-  
-    width:55px;
-    height:45px;
-    padding-top: 10px;
-    cursor:pointer;
-}
-#change{
-   
-    width:155px;
-    height:50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    cursor:pointer;
-}
-    
-#bottom2{
-    display: flex;
-    /* border: 2px solid red; */
-    margin: auto;
-    align-items: center;
-    align-content: center;
-    margin-left: 50px;
-}
-
-#xyzw{
-    
-    width:25px;
-    height:25px;
-    padding-top: 8px;
-    cursor:pointer;
-}
-
-#select{
-    border: 0px;
-    font-size: 15px;
-    font-weight: 10px;
-    margin-top: 4px;
-    padding-left: 1px;
-    cursor:pointer;
-}
-
-#select1{
-    border: 0px;
-    font-size: 15px;
-    font-weight: 10px;
-    margin-top: 6px;
-    padding-left: 1px;
-    cursor:pointer;
-}
-#form1{
-    border: 1px solid blue;
-    padding-left: 3px;
-    margin-left: 3px;
-    height:35px;
-    font-size: 15px;
-    font-weight: 10px;
-    padding-top: 5px;
-    color: rgb(71, 67, 67);
-
-    
-   
-}
-input[type="text"]{
-    height: 25px;
-    border-bottom: 0px;
-    border-top: 0px;
-    border-right: 0px;
-    padding-left: 10px;
-    border-left:1px solid gray;
-    color: rgb(71, 67, 67);
-}
-
-input[type="submit"]{
-    height: 30px;
-    border:0px;
-    padding-left: 10px;
-  margin-right: 7px;
-
-    color: rgb(71, 67, 67);
-cursor:pointer;
-}
-
-#bottom3{
-    display: flex;
-    /* border:2px solid red; */
-    margin: auto;
-    margin-right: 200px;
-    align-items: center;
-
-}
-#bottom3 button{
-  margin-left: 15px;
-    height:35px;
-    background-color: rgb(240, 240, 13);
-    border: 1px solid black;
-    cursor: pointer;
-}
-
-#span1{
-    cursor: pointer;
-}
-#img1{
-    width:25px;
-    height:25px;
-    padding-right: 5px;
-    cursor: pointer;
-}
-/* bottom ends */
-/* nav 2 starts */
-.nav2{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    width:100%;
-    height:50px;
-    
-}
-#nav-bottom{
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-    /* border: 2px solid red; */
-    display: flex;
-    margin:auto;
-    width:75%;
-    height:45px;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-#select4{
-    border: 0px;
-    font-size: 13px;
-    font-weight: 10px;
-    margin-top: 7px;
-    padding-left: 1px;
-    cursor:pointer;
-    /* padding-top: 5px; */
-    color: rgb(71, 67, 67);
-    height:46px;
-    padding-top: 1px;
-    
-}
-#select4:hover{
-    background-color:#29B6F6;
-    
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-
-}
-.dropdown-content p{
-   
-    background-color: aquamarine;
-}
-.dropdown:hover .dropdown-content {
-  display: flex;
-  flex-direction: column;
-}
-#arrow{
-    width:20px;
-    padding-top: 5px;
-    border: 2px solid red;
-    margin-top: 7px;
-}
-</style>
+    <link rel="stylesheet" href="homepage.css">
 </head>
-<body>
+<body onload="show()">
+    <div class="container" id="blur">
     <nav class="nav1">
         <div class="nav-top">
             <div id="nav-top1">
@@ -282,7 +41,78 @@ cursor:pointer;
                 
 
                 <img id="xyz" src="C:\Users\shree\Desktop\CW project\menu lines.png" onclick="toggleNav()" alt="">
-
+                <div class="left-nav" id="left-nav">
+                    <div class="leftnav">
+                         <img id="leftnav" src="C:\Users\shree\Desktop\CW project\SOB.png" alt="">
+                    </div>
+                    <div class="leftnavuser" id="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\user.png" alt="">
+                         <span id="spanleftnav">Login/Register</span>
+                   </div>
+                   <div class="leftnavuser1">
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\account.png" alt="">
+                        <span id="spanleftnav">My Account</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\orders.png" alt="">
+                        <span id="spanleftnav">Orders & Payments</span>
+                    </div>
+                    <div class="leftnavuser" id="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\ads.png" alt="">
+                        <span id="spanleftnav">My Ads</span>
+                    </div>
+                   </div>
+                   <h4 id="h4">CATEGORIES</h4>
+                   <div class="leftnavuser2">
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\services.png" alt="">
+                        <span id="spanleftnav">Services</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\jobs.png" alt="">
+                        <span id="spanleftnav">Jobs</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\cars.png" alt="">
+                        <span id="spanleftnav">Cars</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\bikes.png" alt="">
+                        <span id="spanleftnav">Bikes</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\furniture.png" alt="">
+                        <span id="spanleftnav">Furniture & Decors</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\electronics.png" alt="">
+                        <span id="spanleftnav">Electronics & Appliances</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\co-working.png" alt="">
+                        <span id="spanleftnav">Co-working Spaces</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\mobiles.png" alt="">
+                        <span id="spanleftnav">Mobiles & Tablets</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\kids.png" alt="">
+                        <span id="spanleftnav">Kids & Toys</span>
+                    </div>
+                    <div class="leftnavuser" id="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\homes.png" alt="">
+                        <span id="spanleftnav">Homes</span>
+                    </div>
+                   </div>
+                   <div class="leftnavuser" id="leftnavuser">
+                    <img id="img1leftnav" src="C:\Users\shree\Desktop\CW project\faqs.png" alt="">
+                    <span id="spanleftnav">FAQ's</span>
+                </div>
+                    
+                    <div class="cross" onclick="toggleNav()">&#10006;</div>
+                </div>
                 <!-- OR -->
                 <!-- <div class="hamburger" onclick="toggleNav()">&#9776;</div> -->
                 <span><img id="change" src="C:\Users\shree\Desktop\CW project\SOB.png" alt=""></span>
@@ -320,7 +150,8 @@ cursor:pointer;
                     <input type="submit">
                 </form>
             </div>
-           <div id="bottom3">
+            
+           <div id="bottom3" onclick="document.getElementById('login-form').style.display='block'; toggle()">
             <img id="img1" src="C:\Users\shree\Desktop\CW project\user.png" alt="">
             <span id="span1">Login/Register</span>
             <button>Post Free Ad</button>
@@ -380,46 +211,209 @@ cursor:pointer;
                 <option value="Nashik">Nashik</option>
                 <option value="Jaipur">Jaipur</option>
             </select>
-            <select id="select4">
-                <option value="">KIDS & TOYS</option>
-                <option value="Delhi">Delhi</option>
-                <option value="Hyderabad">Hyderabad</option>
-                <option value="Mumbai">Mumbai</option>
-                <option value="Banglore">Banglore</option>
-                <option value="Pune">Pune</option>
-                <option value="Nagpur">Nagpur</option>
-                <option value="Lucknow">Lucknow</option>
-                <option value="Nashik">Nashik</option>
-                <option value="Jaipur">Jaipur</option>
-            </select>
+            <div class="dropdown">
+            
+                <select id="select4">
+                    <option value="">KIDS & TOYS</option>
+                </select>
+                <div class="dropdown-content">
+                    <!-- <div class="bigger"> -->
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        
+                    <!-- </div> -->
+                </div>       
+            </div>
             <div class="dropdown">
             
                 <select id="select4">
                     <option value="">SPORTS,HOBBIES & FASHION</option>
                 </select>
                 <div class="dropdown-content">
-                    <h2>Delhi</h2>
-                    <a>xyz</a>
-                    <p>Hyderabad</p>
-                    <p>Mumbai</p>
-                    <p>Banglore</p>
-                    <p>Pune</p>
-                    <p>Nagpur</p>
-                    <p>Lucknow</p>
-                    <p>Nashik</p>
-                    <p>Jaipur</p>
+                    <!-- <div class="bigger"> -->
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        
+                    <!-- </div> -->
                 </div>       
             </div>
         </div>
     
    </nav>
-   
+   <!-- 323 -->
+   <div class="afternav"> 
+    <h3>Most Popular Products</h3>
+   </div>
+   <div class="scrolling-content">
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png" alt="">
+            <p>All Furnitures</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/all_electonics_desktop.png" alt="">
+            <p>All Electronics</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/sofa_sets_desktop.png" alt="">
+            <p>Sofa Sets</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/bed.png" alt="">
+            <p>Bed Sheets</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/Wardrobes_desktop.png" alt="">
+            <p>Wardrobes</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/led-tv.png" alt="">
+            <p>TVs</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="	https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/laptops.png" alt="">
+            <p>Laptops</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/electronics/refrigerator.png" alt="">
+            <p>Refrigerators</p>
+        </div>
+    </div>
+    <!-- additional items -->
+  </div>
+  <!--500  -->
+<div id="buysell">
+    <h2>Buy and Sell from 1200+ Cities Across India</h2>
+</div>
+<div class="categories">
+    <div class="inside">
+         <div class="inside-cat">
+             <img src="C:\Users\shree\Desktop\CW project\mobile inside cat.PNG" alt="">
+             <p id="para">Used Mobiles</p>
+             <p id="para">Tablets</p>
+             <p id="para">Accessories</p>
+             <p id="para">Wearables</p>
+             <p>View All</p>
+         </div>
+     
+     
+         <div class="inside-cat">
+             <img src="C:\Users\shree\Desktop\CW project\home inside cat.PNG" alt="">
+             <p id="para">Furniture & Decor</p>
+             <p id="para">Sports, Hobbies & Fashion</p>
+             <p id="para">Luggages</p>
+             <p id="para">Footwear</p>
+             <p id="para">Household Items</p>
+             <p>View All</p>
+         </div>
+     
+     
+         <div class="inside-cat">
+             <img src="C:\Users\shree\Desktop\CW project\electronics inside cat.PNG" alt="">
+             <p id="para">Laptop & Accessories</p>
+             <p id="para">TV - DVD - Multimedia</p>
+             <p id="para">Camera & Accessories</p>
+             <p id="para">Home Appliances</p>
+             <p id="para">Kitchen Appliances</p>
+             <p>View All</p>
+         </div>
+     </div>
+ </div>
+ <!-- 533 -->
+ <div class="parent-1">
+    <p>Mobile & Tablets<p>
+    <div class="parent">
+    <div id="leftarrow" onclick="moveLeft()">
+        <button>&lt;</button>
+    </div>
+    <div class="child" id="c1">
+        <img src="https://teja10.kuikr.com/i4/20230121/Call-87507283…B201705171774173-ak_LWBP300137283-1674292204.jpeg" alt="">
+       <p>Apple Iphone 11 Pro</p>
+        <p>rate <span id="same">Mumbai</span></p>
+        <button>View</button>
+    </div>
+    <div class="child" id="c2">
+        <img src="https://teja9.kuikr.com/i4/20230121/Republic-Day-S…B201705171774173-ak_LWBP156482433-1674282191.jpeg" alt="">
+    </div>
+    <div class="child" id="c3">
+        <img src="https://teja8.kuikr.com/i4/20230121/I-am-selling-m…B201705171774173-ak_LWBP665679738-1674290874.jpeg" alt="">
+    </div>
+    <div class="child" id="c4">
+        <img src="https://teja9.kuikr.com/i4/20230119/All-iPhones-av…VB201705171774173-ak_LWBP886798800-1674109198.png" alt="">
+    </div>
+    <div class="child" id="c5">
+        <img src="https://teja8.kuikr.com/i5/20230121/Order-now-iPho…B201705171774173-ak_LWBP1242421357-1674289516.png" alt="">
+    </div>
+    <div class="child" id="c6">
+        <img src="	https://teja8.kuikr.com/i4/20230121/Order-now-iPho…VB201705171774173-ak_LWBP393133095-1674288449.png" alt="">
+    </div>
+    <div class="child" id="c7">
+        <img src="https://teja8.kuikr.com/i4/20230121/Ipad-8th-gen-3…VB201705171774173-ak_LWBP57321015-1674289405.jpeg" alt="">
+    </div>
+    <div class="child" id="c8">
+        <img src="https://teja10.kuikr.com/i5/20230121/Order-now-iPh…B201705171774173-ak_LWBP1637859715-1674289030.png" alt="">
+    </div>
+    <div id="rightarrow" onclick="moveRight()">
+        <button>&gt;</button>
+    </div>
+ </div>
+</div>
+</div>
+<!-- login from starts here 367-->
+ <div id='login-form'class='login-page'> 
+    <div class="form-box">
+        <div class='button-box'>
+            <div id='btn'></div>
+            <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+            <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+        </div>
+        <form id='login' class='input-group-login'>
+            <input type='text'class='input-field'placeholder='Email Id' required style="color:black">
+    <input type='password'class='input-field'placeholder='Enter Password' required style="color:black">
+    <input type='checkbox'class='check-box'><span id="loginspan">Remember Password</span>
+    <button type='submit'class='submit-btn'>Log in</button>
+ </form>
+ <form id='register' class='input-group-register'>
 
+     <input type='text'class='input-field'placeholder='First Name' required style="color:black">
+     <input type='text'class='input-field'placeholder='Last Name ' required style="color:black">
+     <input type='email'class='input-field'placeholder='Email Id' required style="color:black">
+     <input type='password'class='input-field'placeholder='Enter Password' required style="color:black">
+     <input type='password'class='input-field'placeholder='Confirm Password'  required style="color:black">
+     <input type='checkbox'class='check-box'><span id="loginspan">I agree to the terms and                                                   conditions</span>
+    <button type='submit'class='submit-btn'>Register</button>
 
+</form>
+    </div>
+    
+</div>
 
 
 </body>
-<script>
-
-</script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="homepage.js"></script>
 </html>
