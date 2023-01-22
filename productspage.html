@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="productspage.css">
+</head>
+<body>
+    <div class="container" id="blur">
+        <nav class="nav1">
+            <div class="nav-top">
+                <div id="nav-top1">
+                    <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\bag icon.png" alt="">
+                    <span>For Businesses</span>
+    
+                    <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\download app.png" alt="">
+                    <span>Download The App</span>
+    
+                </div>
+                <div id="nav-top2">
+                    <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\deals.png" alt="">
+                    <span>Deals</span>
+    
+                    <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\store.png" alt="">
+                    <span>Visit Our Store</span>
+    
+                    <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\discount.png" alt="">
+                    <span>Discount on Premium Ads</span>
+    
+                    <img onclick="cart()" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\cart.png" alt="">
+                    <span onclick="cart()">Cart</span>
+    
+                    <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\chat.png" alt="">
+                    <span><i>NXT</i></span>
+                </div>
+            </div>
+            <!-- 55 -->
+            <div class="nav-bottom">
+                <div id="bottom1">
+                    
+    
+                    <img id="xyz" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\menu lines.png" onclick="toggleNav()" alt="">
+                    <div class="left-nav" id="left-nav">
+                        <div class="leftnav">
+                             <img id="leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\SOB.png" alt="">
+                        </div>
+                        <div class="leftnavuser" id="leftnavuser"  onclick="document.getElementById('login-form').style.display='block'; toggle()">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\user.png" alt="">
+                             <span id="spanleftnav">Login/Register</span>
+                       </div>
+                       <div class="leftnavuser1">
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\account.png" alt="">
+                            <span id="spanleftnav">My Account</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\orders.png" alt="">
+                            <span id="spanleftnav">Orders & Payments</span>
+                        </div>
+                        <div class="leftnavuser" id="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\ads.png" alt="">
+                            <span id="spanleftnav">My Ads</span>
+                        </div>
+                       </div>
+                       <h4 id="h4">CATEGORIES</h4>
+                       <div class="leftnavuser2">
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\services.png" alt="">
+                            <span id="spanleftnav">Services</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\jobs.png" alt="">
+                            <span id="spanleftnav">Jobs</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\cars.png" alt="">
+                            <span id="spanleftnav">Cars</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\bikes.png" alt="">
+                            <span id="spanleftnav">Bikes</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\furniture.png" alt="">
+                            <span id="spanleftnav">Furniture & Decors</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\electronics.png" alt="">
+                            <span id="spanleftnav">Electronics & Appliances</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\co-working.png" alt="">
+                            <span id="spanleftnav">Co-working Spaces</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" onclick="mobiles()" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\mobiles.png" alt="">
+                            <span id="spanleftnav" onclick="mobiles()">Mobiles & Tablets</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\kids.png" alt="">
+                            <span id="spanleftnav">Kids & Toys</span>
+                        </div>
+                        <div class="leftnavuser" id="leftnavuser">
+                            <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\homes.png" alt="">
+                            <span id="spanleftnav">Homes</span>
+                        </div>
+                       </div>
+                       <div class="leftnavuser" id="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\faqs.png" alt="">
+                        <span id="spanleftnav">FAQ's</span>
+                    </div>
+                        
+                        <div class="cross" onclick="toggleNav()">&#10006;</div>
+                    </div>
+                    <!-- OR -->
+                    <!-- <div class="hamburger" onclick="toggleNav()">&#9776;</div> -->
+                    <span><img onclick="image()" id="change" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\SOB.png" alt=""></span>
+                </div>
+                <div id="bottom2">
+                    <img id="xyzw" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\location.png" alt="">
+                    <select id="select">
+                        <option value="">All India</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Nashik">Nashik</option>
+                        <option value="Jaipur">Jaipur</option>
+                    </select>
+                    <form id="form1">
+                        
+                        <select id="select1">
+                            <option value="">All Categories</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Banglore">Banglore</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="Lucknow">Lucknow</option>
+                            <option value="Nashik">Nashik</option>
+                            <option value="Jaipur">Jaipur</option>
+                        </select>
+                    
+                        <input type="text" placeholder="Search in All India">
+                        <input type="submit">
+                    </form>
+                </div>
+                
+               <div id="bottom3">
+                <img id="img1" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\user.png" alt=""  onclick="document.getElementById('login-form').style.display='block'; toggle()">
+                <span id="span1"  onclick="document.getElementById('login-form').style.display='block'; toggle()">Login/Register</span>
+            
+                <button>Post Free Ad</button>
+            </div >
+    
+    
+            </div>
+        </nav>
+
+        <!-- products content -->
+        <div class="bigCont">
+
+            <div class="leftPanel">
+    
+                <div id="searchIn">
+                    <h3>Filter Your Choice</h3>
+                    <!-- <hr> -->
+
+                    <!-- <p>BRAND</p> -->
+                <select name="" id="sortBrand">
+                    <option value="">SORT BY BRAND</option>
+                    <option value="Apple">Apple</option>
+                    <option value="HP">HP</option>
+                    <option value="Dell">Dell</option>
+                    <option value="Zebronics">Zebronics</option>
+                </select>
+
+                    
+    
+                    
+                </div>
+    
+                <form id="priceForm">
+                    
+                    <!-- <p>PRICE RANGE</p> -->
+                    <input type="number" placeholder="PRICE FROM" id="from" />
+                    <input type="number" placeholder="PRICE TO" id="to" /> <br>
+                    <input id="show" type="submit" value="Show" />
+                </form>
+    
+                
+    
+                
+    
+    
+                <!-- <p>SORTING</p> -->
+                <!-- <select id="sortPopularity">
+                   
+                </select> -->
+    
+
+                <form id="searchName">
+                    <input id="searchpara" type="text" placeholder="Enter Brand Name Here"> <br> <br>
+                    <input type="submit" id="searchBTN" value="Search" />
+
+                </form>
+    
+                <select name="" id="filterbyCategory" multiple>
+                    <option value="">SORT BY CATEGORY</option>
+                    <option value="Laptop">Laptop</option>
+                    <option value="Head_Phones">HeadPhones</option>
+                    <option value="Speakers">Speakers</option>
+                    <option value="Smart_TV">Smart_TV</option>
+                    <option value="Mobile">Mobile</option>
+                </select>
+    
+            </div>
+    
+    
+            <!-- //Right container -->
+            <div class="Container">
+                <!-- Append here -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="productspage.js"></script>
+</html>

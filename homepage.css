@@ -3,13 +3,14 @@
 .nav1{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     width:100%;
-    
+   
 
 }
 .nav-top{
     display: flex;
     margin: auto;
     margin-bottom: 17px;
+    
     
 }
 /* top starts */
@@ -55,6 +56,9 @@ margin-top: 10px;
 /* bottom starts */
 .nav-bottom{
     display: flex;
+    /* position: fixed; */
+    
+   
     
 
 }
@@ -127,6 +131,8 @@ transform: translateX(-100%);
     align-items: center;
     align-content: center;
     margin-left: 50px;
+    
+    /* z-index: 100000; */
 }
 
 #xyzw{
@@ -376,7 +382,7 @@ cursor:pointer;
       width:380px;
       height:480px;
       position:relative;
-      margin:-20% auto;
+      margin:-195% auto;
       background:#9cd9c5e0;
       /* background-image: url(https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -489,6 +495,7 @@ cursor:pointer;
     filter: blur(5px);
  pointer-events: none;
  user-select: none;
+ 
   }
   
   #buysell{
@@ -530,6 +537,8 @@ cursor:pointer;
     border-bottom: 1px solid gray;
   }
   
+/* mobile & tablets , Home & lifestyle , Electronics & Appliances starts */
+
   .parent{
     display: flex;
     justify-content: center;
@@ -567,9 +576,18 @@ cursor:pointer;
     padding-top: 0;
     
   }
+  .child:hover{
+    border: 2px solid green;
+    cursor: pointer;
+  }
   .child p{
     margin-top: -5 px;
+    padding-left: 15px;
     
+  }
+  #same{
+    padding-left: 100px;
+    color: #999;
   }
   .child p:nth-child(2)
   {
@@ -581,6 +599,13 @@ cursor:pointer;
     height:230px;
     
     /* background-color: rgb(241, 240, 240); */
+  }
+  .child button{
+    margin-left: 15px;
+    background-color: aliceblue;
+    color: #29B6F6;
+    border:1px solid  #29B6F6;
+    cursor: pointer;
   }
   #leftarrow{
     margin-left: 12px;
@@ -600,3 +625,226 @@ cursor:pointer;
     margin-top: 35px;
   }
   
+/* mobile & tablets , Home & lifestyle , Electronics & Appliances ends */
+
+/*  Browse by Category starts here */
+
+.BbC{
+  width:80%;
+  margin: auto;
+}
+.BbC>p{
+  
+    font-size: 20px;
+    
+}
+.BbC1{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap:20px;
+  width:80%;
+  margin: auto;
+  height: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.BbC1-inside{
+  width:100%;
+  height: 80px;
+  margin: auto;
+  /* margin-top: 20px; */
+ 
+
+}
+#BbC1-inside{
+  padding-right: 10px;
+  border-right: 1px solid rgb(191, 184, 184);
+  cursor: pointer;
+}
+.BbC1 p{
+  text-align: center;
+  color: rgb(137, 130, 130);
+}
+.BbC1 img{
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+/*  Browse by Category ends here */
+
+/* Alert starts here */
+.alertbox{
+  width: 80%;
+  height: 150px;
+  margin: auto;
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.boxes{
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid red */
+  ;
+}
+.alertbox>p{
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+#categorybox{
+  width: 260px;
+  font-size: 17px;
+  border: 0px;
+  border-bottom: 1px solid gray;
+}
+
+#buttonalert{
+  margin-top: 25px;
+  margin-left: 32px;
+  width: 260px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1093cf;
+  color: white;
+  border:0px;
+}
+
+select:invalid{
+  color:rgb(133, 127, 127);
+}
+/* Alert ends here */
+
+/* About us starts here */
+
+.Aboutus {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  background-color: white;
+  /* width: 100%; */
+  height: 300px;
+  padding: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 5px;
+
+}
+
+.vertical {
+  border-left: 1px solid #BDBDBD;
+  height: 300px;
+}
+
+#left {
+  width: 50%;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: -20px;
+  /* margin: auto; */
+  /* border: 1px solid greenyellow; */
+
+}
+
+.linkFlex {
+  display: flex;
+  margin-top: 20px;
+  gap: 15px;
+
+}
+
+.linkFlex>a {
+  font-size: 16px;
+  color: black;
+}
+
+.para {
+  margin-top: 16px;
+  color: #999;
+  font-size: 14px;
+}
+
+.yellow1 {
+  background-color: #FCEC52;
+  padding: 12px;
+  border-radius: 7px;
+}
+
+.adflex {
+  display: flex;
+  /* border: 2px solid black; */
+  height: 65px;
+  align-items: center;
+  background-color: #F3F3F3;
+  padding-left: 10px;
+}
+
+.adflex>h4 {
+  margin-left: 15px;
+}
+
+.linkss {
+  font-size: 34px;
+}
+
+.linkss>a {
+  font-size: 16px;
+  color: black;
+  /* padding-left: 10px; */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(71, 66, 66);
+}
+
+.ending {
+  font-size: 14px;
+  margin-top: 15px;
+  /* border: 2px solid red; */
+
+}
+
+.ending>nav {
+  display: flex;
+  gap: 25px;
+}
+
+
+.cityBlock {
+  /* border: 2px solid blue; */
+  width: 40%;
+  margin-right: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.cityBlock>div:nth-child(1) {
+  margin-left: 25px;
+}
+
+.cityBlock>div:nth-child(2) {
+  margin-left: 25px;
+}
+
+.cityBlock>div:nth-child(3) {
+  margin-left: 25px;
+}
+
+#socialMedia img {
+  width: 300px;
+  margin-left: 25px;
+}
+
+.tnc-txt {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-size: 14px;
+
+}
+
+/* About us ends here */
