@@ -271,5 +271,5 @@ var x=document.getElementById('login');
 
     function image()
     {
-      window.location.assign("homepage.html")
+      window.location.assign("index.html")
     }
