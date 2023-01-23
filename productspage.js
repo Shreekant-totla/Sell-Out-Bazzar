@@ -172,5 +172,5 @@ function toggleNav() {
 
     function image()
     {
-      window.location.assign("homepage.html")
+      window.location.assign("index.html")
     }
