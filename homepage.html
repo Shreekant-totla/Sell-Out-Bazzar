@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body  onload="show()">
+    <div class="container" id="blur">
+    <nav class="nav1">
+        <div class="nav-top">
+            <div id="nav-top1">
+                <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\bag icon.png" alt="">
+                <span>For Businesses</span>
+
+                <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\download app.png" alt="">
+                <span>Download The App</span>
+
+            </div>
+            <div id="nav-top2">
+                <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\deals.png" alt="">
+                <span>Deals</span>
+
+                <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\store.png" alt="">
+                <span>Visit Our Store</span>
+
+                <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\discount.png" alt="">
+                <span>Discount on Premium Ads</span>
+
+                <img  onclick="cart()" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\cart.png" alt="">
+                <span onclick="cart()">Cart</span>
+
+                <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\chat.png" alt="">
+                <span><i>NXT</i></span>
+            </div>
+        </div>
+        <!-- 55 -->
+        <div class="nav-bottom">
+            <div id="bottom1">
+                
+
+                <img id="xyz" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\menu lines.png" onclick="toggleNav()" alt="">
+                <div class="left-nav" id="left-nav">
+                    <div class="leftnav">
+                         <img id="leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\SOB.png" alt="">
+                    </div>
+                    <div class="leftnavuser" id="leftnavuser"  onclick="document.getElementById('login-form').style.display='block'; toggle()">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\user.png" alt="">
+                         <span id="spanleftnav">Login/Register</span>
+                   </div>
+                   <div class="leftnavuser1">
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\account.png" alt="">
+                        <span id="spanleftnav">My Account</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\orders.png" alt="">
+                        <span id="spanleftnav">Orders & Payments</span>
+                    </div>
+                    <div class="leftnavuser" id="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\ads.png" alt="">
+                        <span id="spanleftnav">My Ads</span>
+                    </div>
+                   </div>
+                   <h4 id="h4">CATEGORIES</h4>
+                   <div class="leftnavuser2">
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\services.png" alt="">
+                        <span id="spanleftnav">Services</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\jobs.png" alt="">
+                        <span id="spanleftnav">Jobs</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\cars.png" alt="">
+                        <span id="spanleftnav">Cars</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\bikes.png" alt="">
+                        <span id="spanleftnav">Bikes</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\furniture.png" alt="">
+                        <span id="spanleftnav">Furniture & Decors</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\electronics.png" alt="">
+                        <span id="spanleftnav">Electronics & Appliances</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\co-working.png" alt="">
+                        <span id="spanleftnav">Co-working Spaces</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" onclick="mobiles()" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\mobiles.png" alt="">
+                        <span id="spanleftnav" onclick="mobiles()">Mobiles & Tablets</span>
+                    </div>
+                    <div class="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\kids.png" alt="">
+                        <span id="spanleftnav">Kids & Toys</span>
+                    </div>
+                    <div class="leftnavuser" id="leftnavuser">
+                        <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\homes.png" alt="">
+                        <span id="spanleftnav">Homes</span>
+                    </div>
+                   </div>
+                   <div class="leftnavuser" id="leftnavuser">
+                    <img id="img1leftnav" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\faqs.png" alt="">
+                    <span id="spanleftnav">FAQ's</span>
+                </div>
+                    
+                    <div class="cross" onclick="toggleNav()">&#10006;</div>
+                </div>
+                <!-- OR -->
+                <!-- <div class="hamburger" onclick="toggleNav()">&#9776;</div> -->
+                <span><img onclick="image()" id="change" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\SOB.png" alt=""></span>
+            </div>
+            <div id="bottom2">
+                <img id="xyzw" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\location.png" alt="">
+                <select id="select">
+                    <option value="">All India</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Nashik">Nashik</option>
+                    <option value="Jaipur">Jaipur</option>
+                </select>
+                <form id="form1">
+                    
+                    <select id="select1">
+                        <option value="">All Categories</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Nashik">Nashik</option>
+                        <option value="Jaipur">Jaipur</option>
+                    </select>
+                
+                    <input type="text" placeholder="Search in All India">
+                    <input type="submit">
+                </form>
+            </div>
+            
+           <div id="bottom3">
+            <img id="img1" src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\user.png" alt=""  onclick="document.getElementById('login-form').style.display='block'; toggle()">
+            <span id="span1"  onclick="document.getElementById('login-form').style.display='block'; toggle()">Login/Register</span>
+        
+            <button>Post Free Ad</button>
+        </div >
+
+
+        </div>
+    </nav>
+   
+   <nav class="nav2">
+        <div id="nav-bottom">
+            <select id="select4" onclick="mobiles()">
+                <option value="">MOBILES</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <select id="select4">
+                <option value="">FURNITURE & DECOR</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <select id="select4">
+                <option value="">ELECTRONICS</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <select id="select4">
+                <option value="">HOME APPLIANCES</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <div class="dropdown">
+            
+                <select id="select4">
+                    <option value="">KIDS & TOYS</option>
+                </select>
+                <div class="dropdown-content">
+                    <!-- <div class="bigger"> -->
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        
+                    <!-- </div> -->
+                </div>       
+            </div>
+            <div class="dropdown">
+            
+                <select id="select4">
+                    <option value="">SPORTS,HOBBIES & FASHION</option>
+                </select>
+                <div class="dropdown-content">
+                    <!-- <div class="bigger"> -->
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        <a> books</a>
+                        
+                    <!-- </div> -->
+                </div>       
+            </div>
+        </div>
+    
+   </nav>
+   <!-- 323 -->
+   <div class="afternav"> 
+    <h3>Most Popular Products</h3>
+   </div>
+   <div class="scrolling-content">
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png" alt="">
+            <p>All Furnitures</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/all_electonics_desktop.png" alt="">
+            <p>All Electronics</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/sofa_sets_desktop.png" alt="">
+            <p>Sofa Sets</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/bed.png" alt="">
+            <p>Bed Sheets</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/Wardrobes_desktop.png" alt="">
+            <p>Wardrobes</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/led-tv.png" alt="">
+            <p>TVs</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="	https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/laptops.png" alt="">
+            <p>Laptops</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="inside-item">
+            <img src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/electronics/refrigerator.png" alt="">
+            <p>Refrigerators</p>
+        </div>
+    </div>
+    <!-- additional items -->
+  </div>
+  <!--500  -->
+<div id="buysell">
+    <h2>Buy and Sell from 1200+ Cities Across India</h2>
+</div>
+<div class="categories">
+    <div class="inside">
+         <div class="inside-cat" >
+             <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\mobile inside cat.PNG" alt="" onclick="mobiles()">
+             <p id="para">Used Mobiles</p>
+             <p id="para">Tablets</p>
+             <p id="para">Accessories</p>
+             <p id="para">Wearables</p>
+             <p>View All</p>
+         </div>
+     
+     
+         <div class="inside-cat">
+             <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\home inside cat.PNG" alt="">
+             <p id="para">Furniture & Decor</p>
+             <p id="para">Sports, Hobbies & Fashion</p>
+             <p id="para">Luggages</p>
+             <p id="para">Footwear</p>
+             <p id="para">Household Items</p>
+             <p>View All</p>
+         </div>
+     
+     
+         <div class="inside-cat">
+             <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\electronics inside cat.PNG" alt="">
+             <p id="para">Laptop & Accessories</p>
+             <p id="para">TV - DVD - Multimedia</p>
+             <p id="para">Camera & Accessories</p>
+             <p id="para">Home Appliances</p>
+             <p id="para">Kitchen Appliances</p>
+             <p>View All</p>
+         </div>
+     </div>
+ </div>
+ <!-- 533 mobile and tab-->
+ <div class="parent-1">
+    <p>Mobile & Tablets<p>
+    <div class="parent">
+    <div id="leftarrow" onclick="moveLeft()">
+        <button>&lt;</button>
+    </div>
+    <div class="child" id="c1">
+        <img src="https://teja10.kuikr.com/i4/20230121/Call-87507283…B201705171774173-ak_LWBP300137283-1674292204.jpeg" alt="">
+       <p style="color:rgb(53, 184, 184)">Apple Iphone 11 Pro</p>
+        <p>₹ 25,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">4 hours ago</span>
+    </div>
+    <div class="child" id="c2">
+        <img src="https://teja9.kuikr.com/i4/20230121/Republic-Day-S…B201705171774173-ak_LWBP156482433-1674282191.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">Apple Iphone 12 Pro</p>
+        <p>₹ 45,000 <span id="same">Pune</span></p>
+        <button>View</button><span id="same">2 hours ago</span>
+    </div>
+    <div class="child" id="c3">
+        <img src="https://teja8.kuikr.com/i4/20230121/I-am-selling-m…B201705171774173-ak_LWBP665679738-1674290874.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">Nokia 700sx</p>
+        <p>₹ 15,000 <span id="same">Nagpur</span></p>
+        <button>View</button><span id="same">8 hours ago</span>
+    </div>
+    <div class="child" id="c4">
+        <img src="https://teja9.kuikr.com/i4/20230119/All-iPhones-av…VB201705171774173-ak_LWBP886798800-1674109198.png" alt="">
+        <p style="color:rgb(53, 184, 184)">Apple Iphone 14 Pro</p>
+        <p>₹ 45,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">1 hours ago</span>
+    </div>
+    <div class="child" id="c5">
+        <img src="https://teja8.kuikr.com/i5/20230121/Order-now-iPho…B201705171774173-ak_LWBP1242421357-1674289516.png" alt="">
+        <p style="color:rgb(53, 184, 184)">Apple Iphone 11 </p>
+        <p>₹ 20,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">3 hours ago</span>
+    </div>
+    <div class="child" id="c6">
+        <img src="	https://teja8.kuikr.com/i4/20230121/Order-now-iPho…VB201705171774173-ak_LWBP393133095-1674288449.png" alt="">
+        <p style="color:rgb(53, 184, 184)">Apple Iphone 7s</p>
+        <p>₹ 5,000 <span id="same">Patna</span></p>
+        <button>View</button><span id="same">7 hours ago</span>
+    </div>
+    <div class="child" id="c7">
+        <img src="https://teja8.kuikr.com/i4/20230121/Ipad-8th-gen-3…VB201705171774173-ak_LWBP57321015-1674289405.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">Apple tab 3</p>
+        <p>₹ 55,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">9 hours ago</span>
+    </div>
+    <div class="child" id="c8">
+        <img src="https://teja10.kuikr.com/i5/20230121/Order-now-iPh…B201705171774173-ak_LWBP1637859715-1674289030.png" alt="">
+        <p style="color:rgb(53, 184, 184)">Apple Iphone 6 </p>
+        <p>₹ 3,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">4 hours ago</span>
+    </div>
+    <div id="rightarrow" onclick="moveRight()">
+        <button>&gt;</button>
+    </div>
+ </div>
+</div>
+
+<!-- 533 home and Lifestyle-->
+<div class="parent-1">
+    <p>Home & Lifestyle<p>
+    <div class="parent">
+    <div id="leftarrow" onclick="moveLeft1()">
+        <button>&lt;</button>
+    </div>
+    <div class="child" id="d1">
+        <img src="https://teja8.kuikr.com/i6/20230120/Rare--antiques…VB201705171774173-ak_LWBP336714152-1674210356.png" alt="">
+       <p style="color:rgb(53, 184, 184)">Antique 5 Rs coin</p>
+        <p>₹ 1,25,000 <span id="same">Patna</span></p>
+        <button>View</button><span id="same">2 hours ago</span>
+    </div>
+    <div class="child" id="d2">
+        <img src="	https://teja9.kuikr.com/i6/20230121/baby-cot-with-…B201705171774173-ak_LWBP834146552-1674303739.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">Foldable bed</p>
+        <p>₹ 5,000 <span id="same">Pune</span></p>
+        <button>View</button><span id="same">7 hours ago</span>
+    </div>
+    <div class="child" id="d3">
+        <img src="https://teja10.kuikr.com/i5/20230121/Table-Tennis-…-VB201705171774173-ak_WBP848230870-1674304767.png" alt="">
+        <p style="color:rgb(53, 184, 184)">Tennis Table</p>
+        <p>₹ 55,000 <span id="same">Nagpur</span></p>
+        <button>View</button><span id="same">5 hours ago</span>
+    </div>
+    <div class="child" id="d4">
+        <img src="https://teja10.kuikr.com/i6/20230121/Dining-Dinner…VB201705171774173-ak_LWBP843890792-1674305594.png" alt="">
+        <p style="color:rgb(53, 184, 184)">Dinner set 14pcs</p>
+        <p>₹ 7,500 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">1 hours ago</span>
+    </div>
+    <div class="child" id="d5">
+        <img src="https://teja8.kuikr.com/i4/20230121/Double-Bed-wit…B201705171774173-ak_LWBP1116672984-1674303139.png" alt="">
+        <p style="color:rgb(53, 184, 184)">Single Bed </p>
+        <p>₹ 20,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">3 hours ago</span>
+    </div>
+    <div class="child" id="d6">
+        <img src="https://teja8.kuikr.com/i5/20230121/Cabinet-in-goo…201705171774173-ak_LWBP1744785055-1674305163.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">Wardrobe</p>
+        <p>₹ 5,000 <span id="same">Patna</span></p>
+        <button>View</button><span id="same">7 hours ago</span>
+    </div>
+    <div class="child" id="d7">
+        <img src="https://teja10.kuikr.com/i6/20230121/Used-brown-du…201705171774173-ak_LWBP1965173324-1674301126.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">Sofa</p>
+        <p>₹ 55,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">9 hours ago</span>
+    </div>
+    <div class="child" id="d8">
+        <img src="https://teja8.kuikr.com/i5/20230121/Double-Bed-wit…VB201705171774173-ak_LWBP791918914-1674303433.png" alt="">
+        <p style="color:rgb(53, 184, 184)">Double bed </p>
+        <p>₹ 30,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">4 hours ago</span>
+    </div>
+    <div id="rightarrow" onclick="moveRight1()">
+        <button>&gt;</button>
+    </div>
+ </div>
+</div>
+
+<!-- 533 Electronics & Appliances -->
+<div class="parent-1">
+    <p>Electronics & Appliances<p>
+    <div class="parent">
+    <div id="leftarrow" onclick="moveLeft2()">
+        <button>&lt;</button>
+    </div>
+    <div class="child" id="e1">
+        <img src="https://teja10.kuikr.com/i6/20230122/Clearline-Dou…201705171774173-ak_LWBP1913437811-1674332644.jpeg" alt="">
+       <p style="color:rgb(53, 184, 184)">Dough Maker</p>
+        <p>₹ 2,500 <span id="same">Bihar</span></p>
+        <button>View</button><span id="same">6 hours ago</span>
+    </div>
+    <div class="child" id="e2">
+        <img src="https://teja8.kuikr.com/i5/20230122/Dell-Latitude-…VB201705171774173-ak_LWBP123694189-1674330630.png
+        " alt="">
+        <p style="color:rgb(53, 184, 184)">Dell Laptop D65ex</p>
+        <p>₹ 25,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">9 hours ago</span>
+    </div>
+    <div class="child" id="e3">
+        <img src="	https://teja8.kuikr.com/i5/20230122/LG-Microwave-3…B201705171774173-ak_LWBP359913535-1674327081.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">LG Microwave</p>
+        <p>₹ 5,000 <span id="same">Pune</span></p>
+        <button>View</button><span id="same">5 hours ago</span>
+    </div>
+    <div class="child" id="e4">
+        <img src="https://teja10.kuikr.com/i4/20230121/Air-Pods-pro-…201705171774173-ak_LWBP1505593014-1674320952.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">Apple airpods 3</p>
+        <p>₹ 15,500 <span id="same">Banglore</span></p>
+        <button>View</button><span id="same">2 hours ago</span>
+    </div>
+    <div class="child" id="e5">
+        <img src="	https://teja10.kuikr.com/i4/20230121/PlayStation-4…B201705171774173-ak_LWBP1075089708-1674320085.png
+        " alt="">
+        <p style="color:rgb(53, 184, 184)">PS4 pro 1 TB </p>
+        <p>₹ 40,000 <span id="same">Chennai</span></p>
+        <button>View</button><span id="same">3 hours ago</span>
+    </div>
+    <div class="child" id="e6">
+        <img src="https://teja8.kuikr.com/i5/20230121/Cabinet-in-goo…201705171774173-ak_LWBP1744785055-1674305163.jpeg	https://teja8.kuikr.com/i4/20230117/Hardly-used-2-…201705171774173-ak_LWBP1610792148-1673965520.jpeg" alt="">
+        <p style="color:rgb(53, 184, 184)">LG Cooler</p>
+        <p>₹ 5,000 <span id="same">Patna</span></p>
+        <button>View</button><span id="same">7 hours ago</span>
+    </div>
+    <div class="child" id="e7">
+        <img src="https://shop.unigreenscheme.co.uk/files/ITEM-09985-001.jpg" alt="">
+        <p style="color:rgb(53, 184, 184)">Sony Tv SO500 Display</p>
+        <p>₹ 5,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">9 hours ago</span>
+    </div>
+    <div class="child" id="e8">
+        <img src="https://th.bing.com/th/id/OIP.gDxpDzsvgH1AQwZh0-RxaAAAAA?pid=ImgDet&rs=1" alt="">
+        <p style="color:rgb(53, 184, 184)">Moza Air cross 2 </p>
+        <p>₹ 10,000 <span id="same">Mumbai</span></p>
+        <button>View</button><span id="same">4 hours ago</span>
+    </div>
+    <div id="rightarrow" onclick="moveRight2()">
+        <button>&gt;</button>
+    </div>
+ </div>
+</div>
+<!-- Electronics ends here -->
+
+<!-- 623 Browse by Category starts here -->
+<div class="BbC">
+    <p>Browse by Category<p>
+</div>
+<div class="BbC1">
+    <div class="BbC1-inside" id="BbC1-inside">
+        <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\mobiles.png" alt="">
+        <p>Mobiles & Tablets</p>
+    </div>
+    <div class="BbC1-inside"  id="BbC1-inside">
+        <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\furniture.png" alt="">
+        <p>Furniture & Decor</p>
+    </div>
+    <div class="BbC1-inside"  id="BbC1-inside">
+        <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\electronics.png" alt="">
+        <p>Electronics & Appliances</p>
+    </div>
+    <div class="BbC1-inside"  id="BbC1-inside">
+        <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\sports & hobbies.png" alt="">
+        <p>Sports, Hobbies & Fashion</p>
+    </div>
+    <div class="BbC1-inside"  id="BbC1-inside">
+        <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\home & lifestyle.png" alt="">
+        <p>Home & Lifestyle</p>
+    </div>
+    <div class="BbC1-inside">
+        <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\kids.png" alt="">
+        <p>Kids & Toys</p>
+    </div>
+</div>
+
+<!--  Browse by Category ends here-->
+
+<!--667 Alert starts here -->
+<form >
+<div class="alertbox">
+    <p>I Want To Receive Alerts</p>
+    <div class="boxes">
+        <select  required id="categorybox">
+            <option value="" >Category</option>
+            <option value="Home & Lifestyle">Home & Lifestyle</option>
+            <option value="Electronics & Appliances">Electronics & Appliances</option>
+            <option value="Mobile & Tablets">Mobile & Tablets</option>
+        </select>
+        <select required id="categorybox">
+            <option value="">Sub Category</option>
+            <option value="Mobile & Tablets">Used Mobiles</option>
+            <option value="Mobile & Tablets">Tablets</option>
+            <option value="Mobile & Tablets">Accessories</option>
+            <option value="Mobile & Tablets">Wearables</option>
+
+        </select>
+        <input type="email" id= "categorybox" placeholder="Enter your email" required>
+        <input type="tel"  id= "categorybox" placeholder="Mobile" required>
+    </div>
+    
+        <button id="buttonalert" onclick="alerted()">CREATE ALERT</button>
+    
+</div>
+</form>
+<!-- Alert ends here -->
+
+<!-- About us starts here -->
+<div class="Aboutus">
+
+    <div id="left">
+
+        <div class="linkFlex">
+            <a href="//www.quikr.com/html/about.php" target="_parent">About Us</a>
+            <a href="//www.quikr.com/html/contact.php" target="_parent">Contact Us</a>
+            <a href="//www.quikr.com/html/jobs.php" target="_parent">Careers</a>
+            <a href="//www.quikr.com/video?id=vhS7M5IdOpI" target="_parent">Quikr Videos</a>
+            <a href="//www.quikr.com/adsales" target="_parent">Advertise With Us</a>
+            <a href="http://blog.quikr.com" target="_parent">Blog</a>
+            <a href="//www.quikr.com/help/" target="_parent">Help</a>
+        </div>
+
+        <p class="para">Widely known as India’s no. 1 online classifieds platform, Quikr is all about you. Our
+            aim is to empower every person in the country to independently connect with buyers and sellers online.
+            We care about you — and the transactions that bring you closer to your dreams. Want to buy
+            your first car? We’re here for you. Want to sell commercial property to buy your dream home? We’re
+            here for you. Whatever job you’ve got, we promise to get it done.</p>
+        <div class="adflex">
+            <p>At Sell Out Bazzar, you can buy, sell or rent anything you can think of</p>
+            <h4 class="yellow1">Post Free Ad </h4>
+        </div>
+
+        <div>
+            <nav class="linkss">
+                <a rel="follow" href="//www.quikr.com/html/policies.php#listing-policy"
+                    onclick="navigateBetweenPolicy('Listing Policy');" target="">Listing Policy</a>
+                <a rel="follow" href="//www.quikr.com/html/termsandconditions.php"
+                    onclick="navigateBetweenPolicy('Terms of Use');" target="">Terms of Use</a>
+                <a rel="follow" href="//www.quikr.com/html/policies.php#privacy-policy"
+                    onclick="navigateBetweenPolicy('Privacy Policy');" target="">Privacy Policy</a>
+                <a rel="follow" href="//www.quikr.com/html/policies.php#quikrX-policy"
+                    onclick="navigateBetweenPolicy('Quikr Mobiles Policy');" target="">Quikr Mobiles Policy</a>
+                <a rel="follow" href="//www.quikr.com/html/brand_guidelines.php"
+                    onclick="navigateBetweenPolicy('Quikr Brand Guidelines');" target="">Quikr Brand Guidelines</a>
+                <a rel="follow" href="//www.quikr.com/www-sitemap.php" onclick="navigateBetweenPolicy('Sitemap');"
+                    target="">Sitemap</a>
+                <a rel="follow" href="http://news.quikr.com/" onclick="navigateBetweenPolicy('News');"
+                    target="">News</a>
+            </nav>
+        </div>
+
+        <div class="ending">
+            <nav><a href="">Other Brands:</a>
+                <a href="https://www.commonfloor.com/" target="_blank">Commonfloor</a>
+                <a href="http://hiree.com/" target="_blank">Hiree</a>
+                <a href="http://www.dazzlr.in/" target="_blank">Dazzlr</a>
+                <a href="https://www.realtycompass.com/" target="_blank">Realty Compass</a>
+                <a href="https://www.gozefo.com/" target="_blank">Zefo</a>
+            </nav>
+        </div>
+
+    </div>
+    <div class="vertical"></div>
+
+    <!-- Social Media GRID -->
+
+    <div id="socialMedia">
+        <div class="cityBlock">
+            <div>
+                <p>Ahmedabad</p>
+                <p>Bangalore</p>
+                <p>Chandigarh</p>
+                <p>Chennai</p>
+                <p>Coimbatore</p>
+                <p>All Cities</p>
+            </div>
+            <div>
+                <p>Delhi</p>
+                <p>Gurgaon</p>
+                <p>Hyderabad</p>
+                <p>Jaipur</p>
+                <p>Kochi</p>
+            </div>
+            <div>
+                <p>Kolkata</p>
+                <p>Lucknow</p>
+                <p>Mumbai</p>
+                <p>Pune</p>
+                <p>Trivandrum</p>
+            </div>
+        </div>
+
+        <img src="C:\Users\shree\Desktop\Project\loud-weight-1875\images\social Media.png" alt="">
+    </div>
+</div>
+
+<div class="tnc-txt">Copyright © 2008 - 2023 Quikr India Private Limited</div>
+<!-- About us ends here -->
+</div>
+<!-- login from starts here 367-->
+ <div id='login-form'class='login-page'> 
+    <div class="form-box">
+        <div class='button-box'>
+            <div id='btn'></div>
+            <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+            <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+        </div>
+        <form id='login' class='input-group-login'>
+            <input type='text' id="loginid" class='input-field'placeholder='Email Id' required style="color:black">
+    <input type='password' id="loginpassword" class='input-field'placeholder='Enter Password' required style="color:black">
+    <input type='checkbox'class='check-box'><span id="loginspan">Remember Password</span>
+    <button type='submit'class='submit-btn'>Log in</button>
+ </form>
+ <form id='register' class='input-group-register'>
+
+     <input type='text' id="First Name" class='input-field'placeholder='First Name' required style="color:black">
+     <input type='text'id="Last Name" class='input-field'placeholder='Last Name ' required style="color:black">
+     <input type='email' id="Email" class='input-field'placeholder='Email Id' required style="color:black">
+     <input type='password' class='input-field'placeholder='Enter Password' required style="color:black">
+     <input type='password' id="Password" class='input-field'placeholder='Confirm Password'  required style="color:black">
+     <input type='checkbox'class='check-box'><span id="loginspan">I agree to the terms and                                                   conditions</span>
+    <button type='submit' id="submitbtn" class='submit-btn'>Register</button>
+
+</form>
+    </div>
+    
+</div>
+
+
+</body>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="homepage.js"></script>
+</html>
