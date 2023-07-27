@@ -23,8 +23,14 @@
 </ul><ul>
 <li>Searching &amp; Sorting</li>
 <ul>
-    <li>Home Page</li>
-    <img src="./home page.png" alt="Home Page">
+    <li>Home Page</li></br>
+    <img src="./home page.png" alt="Home Page"></br></br>
+    <li>Home Page Carousel</li></br>
+    <img src="./home page carousel.png" alt="Home Page Carousel"></br></br>
+    <li>Products Page</li></br>
+    <img src="./products page.png" alt="Products Page"></br></br>
+    <li>Cart Page</li></br>
+    <img src="./cart.png" alt="Cart Page"></br></br>
 </ul>
 </ul><h2>Project Status</h2>
 <hr><p>Completed</p><h2>Contact</h2>
