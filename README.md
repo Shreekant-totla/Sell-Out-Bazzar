@@ -22,6 +22,8 @@
 <li>Login &amp; Sign up functionality</li>
 </ul><ul>
 <li>Searching &amp; Sorting</li>
+</ul><h2>Images</h2>
+<hr><ul>
 <ul>
     <li>Home Page</li></br>
     <img src="./home page.png" alt="Home Page"></br></br>
