@@ -24,7 +24,7 @@
 <li>Searching &amp; Sorting</li>
 <ul>
     <li>Home Page</li>
-    <img src="https://drive.google.com/file/d/1Wpojq63tLW_bB3PegzYPgxjeRFbdwaD4/view?usp=sharing" alt="Home Page">
+    <img src="./home page.png" alt="Home Page">
 </ul>
 </ul><h2>Project Status</h2>
 <hr><p>Completed</p><h2>Contact</h2>
