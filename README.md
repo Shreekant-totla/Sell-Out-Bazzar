@@ -30,7 +30,7 @@
     <li>Products Page</li></br>
     <img src="./products page.png" alt="Products Page"></br></br>
     <li>Cart Page</li></br>
-    <img src="./cart.png" alt="Cart Page"></br></br>
+    <img src="./cart page.png" alt="Cart Page"></br></br>
 </ul>
 </ul><h2>Project Status</h2>
 <hr><p>Completed</p><h2>Contact</h2>
