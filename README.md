@@ -22,6 +22,10 @@
 <li>Login &amp; Sign up functionality</li>
 </ul><ul>
 <li>Searching &amp; Sorting</li>
+<ul>
+    <li>Home Page</li>
+    <img src="https://drive.google.com/file/d/1Wpojq63tLW_bB3PegzYPgxjeRFbdwaD4/view?usp=sharing" alt="Home Page">
+</ul>
 </ul><h2>Project Status</h2>
 <hr><p>Completed</p><h2>Contact</h2>
 <hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/shreekant-totla-9484811a7"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/Shreekant-totla/Sell-Out-Bazzar"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
